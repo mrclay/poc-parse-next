@@ -1,0 +1,5 @@
+# Ignore dependencies installed in the host
+node_modules
+
+# Ignore build artifacts that might have been generated on the host
+lib

@@ -1,0 +1,12 @@
+{
+  "generator-web-starter": {
+    "promptValues": {
+      "name": "poc-parsetina",
+      "platform": "Docker",
+      "dockerCms": "None",
+      "dockerSearch": "None",
+      "dockerCache": "None"
+    },
+    "projectName": "poc-parsetina"
+  }
+}
