@@ -1,11 +1,10 @@
-import '../styles/globals.css';
-import { withTina } from 'tinacms';
-import { AppProps } from 'next/app';
+import { AppProps } from "next/app";
+
+import "../styles/globals.css";
+import "../components/Playground/style.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
 
-export default withTina(MyApp, {
-  enabled: false,
-});
+export default MyApp;
